@@ -1,3 +1,7 @@
+<?php
+	include ('include/arrays.php');
+	$companyName = "DemoHustle";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,12 +18,12 @@
 		</div><!--banner-->
 		<div id="nav">
 
-			
+			<ul>
 				<?php
 				include ('include/nav.php');
 				?>
 
-			
+			</ul>
 			
 		</div><!--nav-->
 		<div class="content">

@@ -16,10 +16,14 @@
 					2:30pm-8:00pm<br><br>
 					<em>Sunday-Monday</em><br>
 					Closed<br>
+
+					<?php
+					include 'include/store-hours.php';
+					  ?>
 				</div><!--colum three last-->
 				
 			</div><!--footer-->
-			<small>&copy;2017 DemoHustle</small>
+			<small>&copy;<?php echo date('Y');  ?> <?php echo "$companyName"; ?> </small>
 			
 		</div><!--content-->
 		
